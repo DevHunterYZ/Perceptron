@@ -30,4 +30,4 @@ for i in range(len(pred)):
         count=count+1
 print(count)
 len(pred)
-6284/8400.0
+print(7224/8400.0)
