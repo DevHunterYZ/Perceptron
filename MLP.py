@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pylot as plt
 from sklearn.neural_network import MLPClassifier
 from sklearn.cross_validation import train_test_split
-
+from sklearn.linear_model import Perceptron
 data=pd.read_csv('mnist.csv')
 
 df_x=data.iloc[:,1:]
